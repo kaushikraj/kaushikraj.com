@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      "Prime - Modified 2048 game"
+subtitle:   "copy-paste is the easiest way to learn."
+date:       2014-07-14 12:00:00
+author:     "Kaushik Raj"
+header-img: "img/bg/post-1.jpg"
+---
+<p>
+<a href="/prime">PRIME</a> is a simple game written in JavaScript.
+The objective of the game is to find a prime number by selecting one or more tiles (whose sum is a prime number) in 4x4 grid.
+Are you smart enough? Give it a try.
+</p>
+
+<p align="center">
+<a href="/prime">
+    <img class="img-responsive" src="{{ site.baseurl }}/img/prime.png" alt="Prime">
+</a>
+</p>
+
+<p>
+The game is a modification of the popular <a href="https://gabrielecirulli.github.io/2048/">2048</a> game. 
+Source code of the game can be found at <a href="https://github.com/kaushikraj/prime">https://github.com/kaushikraj/prime</a>
+</p>

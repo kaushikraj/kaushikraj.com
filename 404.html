@@ -1,0 +1,31 @@
+---
+layout: page
+title: "404"
+description: "You lost or my bad?"
+header-img: "img/bg/404.jpg"
+---
+
+<p align="center">
+    Hold on a minute, I will take a look. Try <a href="{{ site.baseurl }}/">home</a> maybe?
+</p>
+
+<pre>
+    <code id="xxx">
+$cd ~
+</code>
+</pre>
+
+<script>
+
+    var texts = ["$cd ~", "$grep 404 *.html", "$cd ..", "$jekyll serve", "$python run.py"]
+
+    function random_text()
+    {
+        var i = Math.floor((texts.length - 1) * Math.random());
+        e = document.getElementById("xxx");
+        t = "\n" + texts[i] + "\n";
+        e.innerText = t;
+    }
+
+    setInterval(random_text, 500)
+</script>
