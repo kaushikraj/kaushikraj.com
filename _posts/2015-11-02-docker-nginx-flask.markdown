@@ -37,7 +37,7 @@ To read these environment variables in the flask app, use the following code
 </p>
 
 <pre class="code">
-using os
+import os
 
 param1 = os.environ.get("param1", None)
 if param1:
