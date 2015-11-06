@@ -51,9 +51,9 @@ of Viusal Studio the development server is rarely used.
 
 <h2>Routing and Resources</h2>
 <p>
-Flask comes with base class <code>Resource</code>. It should be use for web methods exposed on a resource.
+Flask's extenstion (Flask-RESTful) comes with base class <code>Resource</code>. It should be use for web methods exposed on a resource.
 This <a href="http://blog.miguelgrinberg.com/post/designing-a-restful-api-using-flask-restful">blog post</a> explains how it works.
-While it is not required to use <code>Resource</code> base class, I highly recomment it. If the code doesn't use it, route 
+While it is not required to use <code>Resource</code> base class, I highly recommend it. If the code doesn't use it, route 
 maintainence is challenging.
 </p>
 
