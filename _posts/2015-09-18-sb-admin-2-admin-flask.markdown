@@ -53,10 +53,10 @@ Executing the sample
 
 <pre>
 <code>
-    $python run.py
+    $python app.py
 </code>
 </pre>
 
 <p>
-Load the URL (http://localhost:5000/) on browser. Use the credentials "john:doe" or "marry:jane" to login.
+Load the URL (http://localhost:5000/) on browser. Use the credentials "john:doe" or "mary:jane" to login.
 </p>
